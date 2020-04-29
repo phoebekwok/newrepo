@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour {
     public float moveSpeed;     //Control the speed that the player is moving around in the world
     public Rigidbody2D rb;    //Store a reference to the Rigidbody2D component required to use 2D Physics 
 
-    public float jumpSpeed;     //Control the speed when the player jumps
+    public float jumpSpeed = 5.0f;     //Control the speed when the player jumps
 
     //Ground detection variables
     public Transform groundCheck;   // A point in space to check where the ground is
